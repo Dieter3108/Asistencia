@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6/11/2019, 02:18:41 PM
+    Author     : Dieter Lahnstein
+*/
+
+.horarioheader{
+    border: 5px ridge #004028;
+    background-color: #ea710b;
+    color:white;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+td{
+    border: 5px ridge #004028;
+    font-family: helvetica;
+    font-weight:bold;
+    align:center;
+    height:100px;
+    width: 130px;
+   
+}
+/*table{
+      border-collapse:collapse;
+    border:5px ridge #004028;
+    font-family: helvetica;
+    font-weight:bold;
+   position:absolute;
+   left:25%;
+   right: 50%;
+   bottom: 20px;
+   
+}*/
+.boton{
+     display: inline-block;
+    margin:5px 8px;
+    color: #ea710b;
+    font-size:20px;
+    font-family:Helvetica;
+    text-decoration: none;
+    border:2px solid #ea710b;
+    padding: 2px 5px 2px 5px;
+    border-radius:4px;
+    background:none;
+    position:absolute;
+   right: 230px;
+   bottom: 35px;
+}
+.boton:hover{
+  background:#ea710b;
+  color: white;
+  -webkit-transition-duration: 1s;
+}
+.poto{
+    position: relative;
+    left: 50px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border:2px solid #ea710b;
+    border-radius: 4px;
+    background: white;
+    color:#004028;
+}
+.test{
+    position: relative;
+    top:0%;
+    width:120px ;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+a{
+    display: inline-block;
+    margin:5px 8px;
+    color: #ea710b;
+    font-size:20px;
+    font-family:Helvetica;
+    text-decoration: none;
+    border:2px solid #ea710b;
+    padding: 2px 5px 2px 5px;
+    border-radius:4px;
+    background:none;
+    position:absolute;
+   right: 100px;
+   bottom: 35px;
+}
+a:hover{
+     background:#ea710b;
+  color: white;
+  -webkit-transition-duration: 1s;
+}
+.No{
+    position: absolute;
+    border: 2px solid #ea710b;
+    border-radius: 4px;
+    width: 300px;
+    height: 40px;
+    left: 670px;
+    top: 30px;
+    font-family: Comics Sans;
+    font-size: 25px;
+    text-align: center;
+  
+}
+.lpp{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}

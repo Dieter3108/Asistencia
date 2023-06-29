@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 nov 2019, 8:17:47
+    Author     : alumno1
+*/
+
+.ventana{
+    background: #002752;
+    width: 30%;
+    color: white;
+    font-family: Helvetica;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    min-height: 250px;
+    border-radius: 22px;
+    position:absolute;
+    left: 34;
+    top: 25%;
+   display: none;
+}
+.cancela{
+    width: 30px;
+    position: absolute;
+    right: 10%;
+}

@@ -1,0 +1,217 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6/11/2019, 02:18:41 PM
+    Author     : Dieter Lahnstein
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6/11/2019, 02:18:41 PM
+    Author     : Dieter Lahnstein
+*/
+
+.No{
+    border: 4px solid #ea710b;
+    border-radius: 34px;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top:30px;
+    text-align: center;
+}
+
+.thetable21{
+    border-collapse:collapse;
+    border:3px ridge #004028;
+ 
+    font-family: helvetica;
+    font-weight:bold;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 100px) {
+       table {
+           width:100%;
+       }
+       thead {
+           display: none;
+       }
+       tr:nth-of-type(2n) {
+           background-color: inherit;
+       }
+       tr td:first-child {
+           background: #f0f0f0;
+           font-weight:bold;
+           font-size:1.3em;
+       }
+       tbody td {
+           display: block;
+           text-align:center;
+       }
+       tbody td:before {
+           content: attr(data-th);
+           display: block;
+           text-align:center;
+       }
+}
+
+td{
+    border: 3px ridge #004028;
+    font-family: helvetica;
+    font-weight:bold;
+    font-size: 16px;
+    align:center;
+    height:50px;
+    width: 200px;
+    color: black;
+}
+.horarioheader{
+    border: 3px ridge #004028;
+    text-align: center;
+    background-color: #ea710b;
+    color:white;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.test{
+    margin-top: 0px;
+    
+    border: 2px solid #ea710b;
+    border-radius: 2px;
+    width: 200px;
+    text-align: center;
+    color: black;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.bg-white{
+    background: #ea710b;
+    border: 3px ridge #004028;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.Descanso{
+    width: 50px;
+}
+
+.poto{
+   border: 2px solid #ea710b;
+   border-radius: 4px;
+   background: white;
+   margin-left: 80px;
+   width: 35px;
+   height: 35px;
+   margin-top: 20px;
+   font-size:20px;
+}
+a{
+    position: absolute;
+    display: inline-block;
+    margin:5px 8px;
+    color: white;
+    font-size:20px;
+    font-family:Helvetica;
+    text-decoration: none;
+    border:2px solid #ea710b;
+    padding: 2px 5px 2px 5px;
+    border-radius:4px;
+    background:#ea710b;
+   
+   right: 120px;
+   bottom: 120px; }
+a:hover{
+    background:white;
+    color:#ea710b;
+    transition-duration: 1s;
+}
+.boton{
+    position: absolute;
+    margin:5px 8px;
+    color:white;
+    font-size:20px;
+    font-family:Helvetica;
+    text-decoration: none;
+    border:2px solid #ea710b;
+    padding: 2px 5px 2px 5px;
+    border-radius:4px;
+    background:transparent;
+   -webkit-transition-duration: 1s;
+   right: 30px;
+   bottom: 120px;
+   border-radius: 6px;
+   border-top: none;
+   padding: 3px 5px;
+}
+.boton:hover{
+    background: white;
+    color: #ea710b;
+}
+.eliminar{
+    width: 25px;
+    height: 25px;
+    color: black;
+}
+.linea{
+    bottom: 75px;
+    width: 1580px;
+    position: absolute;
+    height: 19px;
+    background-color: #ea710b;
+
+}
+footer{
+    position: absolute;
+    left: 9px;
+    bottom: 0px;
+    width: 1580px;
+   height: 90px;
+    background-color: green;
+}
+.lpp{
+    position: absolute;
+    top: -5px;
+}
+.reloj{
+    position: absolute;
+    width:28px;
+    height: 28px;
+    top: 5px;
+    left: 10px;
+}
+.HH{
+    width: auto;
+}
+h1{
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+}
+h2{
+    text-align: center;
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight: bold;
+}
+h3{
+    
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial;
+}
